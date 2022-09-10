@@ -6,6 +6,7 @@
  *
  * Return: number of nodes
  */
+
 size_t dlistint_len(const dlistint_t *h)
 {
 	size_t nodes = 0;
@@ -29,6 +30,7 @@ size_t dlistint_len(const dlistint_t *h)
  *
  * Return: the address of the new element, or NULL if it failed
  */
+
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
@@ -59,6 +61,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
  *
  * Return: number of nodes in the list
  */
+
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t nodes = 0;
@@ -84,6 +87,7 @@ size_t print_dlistint(const dlistint_t *h)
  *
  * Return: 1 on success, -1 on failure
  */
+
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *temp = *head;
@@ -122,6 +126,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
  *
  * Return: address of the node, or if it does not exist, NULL
  */
+
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
