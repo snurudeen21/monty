@@ -6,6 +6,7 @@
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
+
 void sub_handler(stack_t **stack, unsigned int line_number)
 {
 	int sub = 0;
@@ -37,6 +38,7 @@ void sub_handler(stack_t **stack, unsigned int line_number)
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
+
 void div_handler(stack_t **stack, unsigned int line_number)
 {
 	int div = 0;
@@ -75,6 +77,7 @@ void div_handler(stack_t **stack, unsigned int line_number)
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
+
 void mul_handler(stack_t **stack, unsigned int line_number)
 {
 	int mul = 0;
@@ -106,6 +109,7 @@ void mul_handler(stack_t **stack, unsigned int line_number)
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
+
 void mod_handler(stack_t **stack, unsigned int line_number)
 {
 	int mod = 0;
